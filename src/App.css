@@ -1,0 +1,145 @@
+*{
+  margin : 0;
+  padding : 0;
+}
+
+body{
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+  background-color: rgb(20, 19, 20);
+  color: rgb(158, 158, 92);
+
+}
+
+.css-b62m3t-container{
+  width:100%;
+}
+
+
+
+.css-sl4pg4-control{
+  width: 100% !important;
+}
+
+.btnNormal{
+  padding: 15px;
+  color: #fff;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+h3{
+
+  margin-top:10px !important;
+  margin-bottom: 10px !important;
+  color:grey;
+}
+
+
+p > strong{
+  font-size: 20px !important;
+  
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #151515;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+/* RESPONSE PANEL WRAPPER */
+.response-container {
+  background-color: #0f0f10;
+  padding: 16px;
+  overflow-y: auto;
+  height: calc(100% - 60px);
+  border-left: 1px solid #27272a;
+}
+
+/* Markdown Base Styling */
+.response-container .markdown-body {
+  color: #121213;
+  font-size: 15px;
+  line-height: 1.65;
+  font-family: "Inter", sans-serif;
+}
+
+/* Headings */
+.response-container .markdown-body h1,
+.response-container .markdown-body h2,
+.response-container .markdown-body h3 {
+  color: #fafafa;
+ 
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/* Paragraphs */
+.response-container .markdown-body p {
+  margin-bottom: 12px;
+  color: #d4d4d8;
+}
+
+/* Lists */
+.response-container .markdown-body ul,
+ 
+.response-container .markdown-body ol {
+   
+  margin-left: 20px;
+  margin-bottom: 14px;
+}
+
+.response-container .markdown-body li {
+  margin-bottom: 6px;
+}
+
+/* CODE BLOCKS */
+.response-container pre {
+  background: #1a1a1d !important;
+  padding: 14px;
+  border-radius: 8px;
+  overflow-x: auto;
+  border: 1px solid #2a2a2d;
+}
+
+.response-container code {
+  color: #c5c8ff;
+  font-size: 14px;
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* INLINE CODE */
+.response-container p code,
+.response-container li code {
+  background: #27272a;
+  padding: 2px 6px;
+  border-radius: 5px;
+  color: #c5c8ff;
+}
+
+/* Blockquote */
+.response-container blockquote {
+  border-left: 4px solid #3f3f46;
+  padding-left: 12px;
+  color: #bfbfc4;
+  margin: 10px 0;
+}
