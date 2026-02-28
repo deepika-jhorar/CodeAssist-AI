@@ -32,7 +32,7 @@ const App = () => {
   const [response, setResponse] = useState("");
 
   const ai = new GoogleGenAI({
-    apiKey: "AIzaSyDhb2vNf4Jj26w4Ke75QsvL8sulBDuqG-I",
+    apiKey: import.meta.env.VITE_GEMINI_API_KEY,
   });
 
   const customStyles = {
